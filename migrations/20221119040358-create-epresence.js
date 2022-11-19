@@ -22,8 +22,8 @@ module.exports = {
       type: {
         type: Sequelize.STRING
       },
-      isApprove: {
-        type: Sequelize.BOOLEAN
+      is_approve: {
+        type: Sequelize.STRING
       },
       waktu: {
         type: Sequelize.DATE

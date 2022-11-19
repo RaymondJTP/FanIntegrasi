@@ -16,7 +16,7 @@ module.exports = (sequelize, DataTypes) => {
   Epresence.init({
     id_users: DataTypes.STRING,
     type: DataTypes.STRING,
-    isApprove: DataTypes.BOOLEAN,
+    is_approve: DataTypes.STRING,
     waktu: DataTypes.DATE
   }, {
     sequelize,
